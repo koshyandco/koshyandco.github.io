@@ -449,14 +449,21 @@ section#contact {
 #contact form textarea {
   padding: 0.4rem;
   width: 100%;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
+  border: 0;
   background-color: #333333;
   color: #aaaaaa;
   border-radius: 0.25rem;
+  outline:none;
 }
 
-#contact form input:focus {
-  border: 1px solid black;
+#contact form input:focus,
+#contact form input:active,
+#contact form textarea:focus,
+#contact form textarea:active {
+  /* border: 1px solid black; */
+  border-color: transparent;
+  border-bottom: 2px solid #cccccc;
 }
 
 #contact form button {
