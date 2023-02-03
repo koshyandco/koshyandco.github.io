@@ -127,7 +127,7 @@ small {
 
 .col-format {
   column-width: 280px;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 
 .container {
@@ -418,7 +418,19 @@ section#contact {
   padding-block-start: 80px;
   padding-block-end: 80px;
   padding-inline: 30px;
+  line-height: 1.75rem;
 }
+
+#contact .contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap: 30px;
+  background-color: var(--color-stroke);
+  /* padding: 1em; */
+  /* max-width: 70rem; */
+}
+
+
 
 #contact #loc-map iframe {
   margin-block-start: 30px;
@@ -520,21 +532,24 @@ section#contact {
   display: none;
 }
 
-/* #contact #related-links {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-} */
-
-#contact #related-links a {
+#contact #kc-links a {
   color: #cccccc;
   text-decoration: none;
+}
+
+#contact #kc-links a:hover {
+  color: #eeeeee;
+  /* text-decoration: underline; */
+}
+
+#contact #kc-links #sitemap{
+  margin-block-start: 60px;
 }
 
 #contact .logo-inv {
   inline-size: 160px;
   margin: 0 auto;
-  padding-block-start: 80px;
+  padding-block-start: 60px;
   padding-block-end: 40px;
 }
 
@@ -542,22 +557,25 @@ section#contact {
   background-color: red;
 }
 
-footer {
-  background-color: black;
-  padding-inline: 30px;
-}
+
 
 /*--------*/
 /* Footer */
+footer {
+  background-color: black;
+  padding-inline: 30px;
+  padding-block-end: 50px;
+}
+
 footer .rights-notice {
   text-align: center;
   color: #aaaaaa;
-  padding-block-end: 50px;
 }
 
 footer .rights-notice a {
   color: #aaaaaa;
 }
+
 
 
 /*---------------*/
