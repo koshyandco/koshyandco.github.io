@@ -93,16 +93,7 @@ body * {
 
 body {
   position: relative;
-  /* display: grid; */
   padding: 0;
-  /* grid-template-columns: 1fr; */
-  /* grid-template-areas: */
-  /* "hd hd" */
-  /* "mn mn" */
-  /* "s-1 s-1" */
-  /* "s-2 s-2" */
-  /* "s-3 s-3"; */
-  /* grid-gap: 0px; */
   font-size: var(--font-size);
 }
 
@@ -206,7 +197,7 @@ nav a:hover {
 
 .article-intro h2 {
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2rem;
   line-height: 1.1;
   max-width: 18ch;
@@ -522,6 +513,7 @@ section#contact {
   font-weight: 600;
   text-transform: uppercase;
   margin-block-end: 10px;
+  border-block-end: 1px solid #333333;
 }
 
 #contact #kc-phone-number {
