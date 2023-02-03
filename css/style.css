@@ -496,12 +496,14 @@ section#contact {
 }
 
 .fs-result-green {
-  color: #33bb80;
+  /* color: #33bb80; */
+  color: #ffffff;
   font-weight: 600;
 }
 
 .fs-result-red {
-  color: #c02040;
+  /* color: #c02040; */
+  color: #ffffff;
   font-weight: 600;
 }
 
