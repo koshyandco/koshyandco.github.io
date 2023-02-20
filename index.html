@@ -23,18 +23,18 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="container">
             <a href="index.html">
                 <h1 id="kc" class="sr-only">Koshy and Co Chartered Accountants</h1>
                 <!-- KC Logo -->
-                <img class="logo" src="img/kc-logo.svg" />
+                <img class="logo" src="img/kc-logo.svg" alt="Koshy & Co Chartered Accountants" />
             </a>
             <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span
                     class="sr-only">Menu</span></button>
             <nav>
                 <ul id="primary-navigation" data-visible="false" class="primary-nav">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#services">SERVICES</a></li>
                     <li><a href="#about-us">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
@@ -352,7 +352,7 @@
                                 <label for="phone">Phone Number</label>
                                 <input type="text" name="phone" id="phone"" required ></div>
                             <div>
-                                <label for=" message">Message</label>
+                                <label for="message">Message</label>
                                 <textarea rows="3" name="message" id="message" required></textarea>
                             </div>
                             <!-- <div class="h-captcha" data-captcha="true"></div> -->
@@ -380,7 +380,7 @@
                         Tel: +91 83308 93399<br />
                     </div>
                     <div id="loc-map">
-                        <iframe
+                        <iframe title="Location Map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31437.399549102087!2d76.26610837910157!3d9.960979400000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080df317e9f52b%3A0x749b2085ada99946!2sKoshy%20%26%20Co%2C%20Chartered%20Accountants.!5e0!3m2!1sen!2sin!4v1674927503308!5m2!1sen!2sin"
                             style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
@@ -400,15 +400,15 @@
                     <h3 id="sitemap">Sitemap</h3>
                     <div>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#home">Home</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#about-us">About Us</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div id="kc-logo-sm">
-                        <a href="#">
-                            <img class="logo-inv" src="img/kc-logo-inv.svg" />
+                        <a href="#home">
+                            <img class="logo-inv" src="img/kc-logo-inv.svg" alt="Koshy & Co Chartered Accountants" />
                         </a>
                     </div>
                 </div>
